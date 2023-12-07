@@ -17,7 +17,8 @@ WebElement VerfiyElement = driver.findElement(By.xpath("//img[@alt='company-bran
 
 if (VerfiyElement.isDisplayed()) {
 	KeywordUtil.markPassed('Application Launched Successfully...!!')
-	driver.close()
 } else {
 	KeywordUtil.markFailed('Application Launched Failed...!!')
 }
+
+
