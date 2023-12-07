@@ -8,7 +8,7 @@ import com.kms.katalon.core.util.KeywordUtil
 import com.kms.katalon.core.webui.driver.DriverFactory
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
-WebUI.callTestCase(findTestCase('Test Cases/LaunchURL'), [:] , FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Test Cases/TC_LaunchURL'), [:] , FailureHandling.STOP_ON_FAILURE)
 
 WebDriver driver = DriverFactory.getWebDriver()
 try {
@@ -24,6 +24,8 @@ try {
 
 			WebElement LoginButton = driver.findElement(By.xpath('//button[text()=\' Login \']'))
 			LoginButton.click()
+			Thread.sleep(3)
+			WebUI.takeScreenshot()
 			
 			driver.close()
 		} else {

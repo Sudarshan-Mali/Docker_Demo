@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Login</name>
+   <name>TC_LaunchURL</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>e1d93cd3-1c92-4f77-ba30-05e3666fbbdb</testCaseGuid>
+   <testCaseGuid>c22a4dd2-80ca-4072-bcdc-fc5194957ee0</testCaseGuid>
 </TestCaseEntity>

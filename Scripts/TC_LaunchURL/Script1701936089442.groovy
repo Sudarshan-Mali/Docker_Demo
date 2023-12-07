@@ -16,6 +16,7 @@ WebDriver driver = DriverFactory.getWebDriver()
 WebElement VerfiyElement = driver.findElement(By.xpath("//img[@alt='company-branding']"))
 
 if (VerfiyElement.isDisplayed()) {
+	WebUI.takeScreenshot()
 	KeywordUtil.markPassed('Application Launched Successfully...!!')
 } else {
 	KeywordUtil.markFailed('Application Launched Failed...!!')
