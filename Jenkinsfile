@@ -5,7 +5,7 @@ pipeline {
         stages {
             stage('Pre-Checkout') { 
                 steps { 
-                    echo 'Pre Checkout Successfull...!!' 
+                    echo 'Pre Checkout Done Successfully...!!' 
                 }       
             }  
         
